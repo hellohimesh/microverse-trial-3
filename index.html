@@ -12,22 +12,31 @@
 <div class="container jumbotron">
     <h1 id ="title">FreeCodeCamp Survey Form</h1>
     <p id ="description">Thank you for taking the time to help us improve the platform</p>
-    <form id="survey-form" class="form-control">
+
+    <div class="container">
+      <form id="survey-form" class="form-control">
       <label id="name-label" for="name" > enter your name
       <input type="text" id="name" placeholder="peter" class="form-control" required> 
     </label>
+    </div>
+    
+    <div class="container">
     <label id="email-label" for="email">
       enter your email
       <input type="email" id="email" placeholder="peter-pan@mymail.com" required>
     </label>
+    </div>
+    <div class="container">
     <label id="number-label" for="age">
       we need to know how old are you
       <input type="number" name="age" min="18" max="99" class="form-control" id="number" placeholder="forever a kid" required>
     </label>
+    </div>
     <select id="dropdown" class="form-control">
-      <option>rtgr</option>
-      <option>gfg</option>
-      <option>gfg</option>
+      <option>kindergarden</option>
+      <option>elementary</option>
+      <option>highschool</option>
+      <option>degree</option>
     </select>
     <div class="form-group">
       <label>Good
@@ -62,9 +71,16 @@
         <input name="tutor" value="tutor" type="checkbox" >
         tutor
       </label>
-      
     </div>
+<div>
+  <label for="tell us about yourself">
+  Tell us about yourself
+    <textarea > 
 
+    </textarea>
+    <button id="submit" class="form-control">submit</button>
+  </label>
+</div>
     </form>
   </div>
 
